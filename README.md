@@ -1,5 +1,7 @@
 # AMAZON FINANCE OPEN SOURCE
 
+**Español** · [English](README.en.md)
+
 Editor: [MartinMS-es](https://github.com/MartinMS-es).
 
 Aplicación local para Windows 10/11 de 64 bits. Consulta cuentas de vendedor Amazon mediante SP-API, archiva datos originales y prepara resúmenes financieros y exportaciones para contabilidad. Español e inglés; 23 marketplaces repartidos en EU, NA y FE.

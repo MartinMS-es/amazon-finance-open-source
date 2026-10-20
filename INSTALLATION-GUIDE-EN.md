@@ -1,5 +1,7 @@
 # AMAZON FINANCE OPEN SOURCE — installation
 
+[Guía en español](GUIA-INSTALACION.md) · **English** · [English README](README.en.md)
+
 1. On Windows 10/11 x64, run `AMAZON-FINANCE-OPEN-SOURCE-Setup-1.0.0.exe`. Choose language and installation directory. Python and Node are included/not required by the end user. The executable has no commercial publisher signature; verify the source and SHA-256 checksum before using it.
 2. Open the desktop shortcut. Keep the control window open while using the app. Your browser opens `https://127.0.0.1:18766/`. Closing the control window stops the local server.
 3. First launch generates a unique local TLS certificate and adds it to the current Windows user's certificate store. No shared private key is shipped. Create your password and configure a TOTP authenticator. There is no default account, password or sample company.

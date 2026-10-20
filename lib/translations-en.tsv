@@ -1,0 +1,533 @@
+Resumen	Overview
+Mercados	Marketplaces
+Movimientos	Transactions
+Documentos	Documents
+Conciliación	Reconciliation
+Liquidaciones	Payouts
+Exportación contable	Accountant export
+Ventas por producto	Product sales
+Informes Amazon	Amazon reports
+Conexión Amazon	Amazon connection
+Ventas	Sales
+Gastos	Expenses
+Devoluciones	Refunds
+Concepto	Description
+Importe	Amount
+Moneda	Currency
+Mercado	Marketplace
+Desde	From
+Hasta	To
+Fecha	Date
+Estado	Status
+Tipo	Type
+Acciones	Actions
+Informe	Report
+Periodo	Period
+Filas	Rows
+Archivo	File
+Emisor	Issuer
+Total	Total
+Notas	Notes
+Cerrar	Close
+Cancelar	Cancel
+Actualizar	Refresh
+Pendiente	Pending
+Validado	Validated
+Conciliado	Reconciled
+Procesando	Processing
+Disponible	Available
+Descargando	Downloading
+Reintentar	Retry
+Finanzas	Finance
+España	Spain
+Alemania	Germany
+Francia	France
+Italia	Italy
+Reino Unido	United Kingdom
+Países Bajos	Netherlands
+Bélgica	Belgium
+Suecia	Sweden
+Polonia	Poland
+Irlanda	Ireland
+Canadá	Canada
+Estados Unidos	United States
+México	Mexico
+Brasil	Brazil
+Sudáfrica	South Africa
+Egipto	Egypt
+Turquía	Turkey
+Arabia Saudí	Saudi Arabia
+Emiratos Árabes Unidos	United Arab Emirates
+Singapur	Singapore
+Japón	Japan
+Sin asignar	Unassigned
+Venta	Sale
+Devolución	Refund
+Comisión	Commission
+Logística FBA	FBA fulfilment
+Almacenamiento	Storage
+Publicidad	Advertising
+Ajuste	Adjustment
+Liquidación	Payout
+Sin clasificar	Unclassified
+Emitida	Issued
+Recibida	Received
+Abono	Credit note
+Pedido	Order
+Referencia	Reference
+IVA	VAT
+Base imponible	Taxable amount
+Importado	Imported
+Enviadas	Shipped
+Devueltas	Refunded
+Completada	Completed
+Liberados	Released
+Conciliados	Reconciled
+Idioma	Language
+Versión local	Local version
+Datos guardados en este ordenador	Data stored on this PC
+Conexión y sincronización disponibles en la aplicación	Connection and synchronisation available in the application
+Selecciona al menos un mercado	Select at least one marketplace
+Selecciona un periodo válido	Select a valid date range
+No se pudo conectar con el servidor local. La exportación se puede reintentar.	Could not connect to the local server. You can retry the export.
+No se pudo preparar el paquete	Could not prepare the package
+Paquete preparado. Revisa LEEME_CONTABLE y 08_faltantes_y_advertencias antes de cerrar el balance.	Package ready. Review LEEME_CONTABLE and 08_faltantes_y_advertencias before closing the accounts.
+Paquete para el contable	Accountant package
+Elige el periodo y todos los mercados que quieras. La descarga contiene datos completos guardados en este PC, sin el límite de las listas.	Choose a date range and marketplaces. The download contains matching data stored on this PC, without display limits.
+Mercados incluidos	Included marketplaces
+Seleccionar todos	Select all
+Quitar selección	Clear selection
+Añadir una carpeta de pendientes con documentos o pagos sin mercado/fecha asignados, sin sumarlos a los totales seleccionados	Include an exceptions folder for documents or payments without a marketplace/date, excluding them from the selected totals
+Qué recibe el contable:	What the accountant receives:
+movimientos financieros, resumen mensual por mercado y moneda, desglose de gastos e impuestos identificados, pagos confirmados y estados de liquidaciones, índice de facturas y PDF disponibles, ventas por producto con cobertura, informes originales y manifiesto de procedencia.	Financial transactions, monthly marketplace/currency totals, identified costs and taxes, confirmed payouts and settlement statuses, invoice index and available PDFs, product sales and coverage, original reports and provenance manifest.
+CSV compatible con Excel: punto y coma, coma decimal y UTF-8. Las divisas se mantienen separadas.	Excel CSV: semicolon delimiter, decimal comma and UTF-8. Currencies remain separate.
+Las ventas financieras se seleccionan por fecha de registro, las facturas por fecha de documento y los pagos por fecha de transferencia. Las facturas y los informes originales no se vuelven a sumar a los movimientos.	Financial sales use posting dates, invoices use document dates, and payouts use transfer dates. Invoices and reports are not added to transactions again.
+Solo se exporta lo ya descargado o importado. Las facturas PDF que todavía no estén disponibles no se generan ni se presuponen descargadas. Los huecos de datos, borradores y diferencias quedan indicados para revisión. No se calcula impuesto pendiente de pago ni se certifica un balance cerrado.	Only downloaded or imported data is exported. Missing invoice PDFs are not generated or assumed available. Gaps, drafts and differences are flagged. This does not calculate outstanding tax or certify closed accounts.
+Preparando el paquete completo…	Preparing the complete package…
+Descargar paquete contable (ZIP)	Download accountant package (ZIP)
+En cola	Queued
+Preparando en Amazon	Preparing at Amazon
+Búsqueda terminada	Search complete
+Amazon no pudo generarlo	Amazon could not generate this report
+Sin datos / cancelado	No data / cancelled
+No se pudo completar la operación	Could not complete the operation
+Recuperación histórica desde	Historical recovery from
+En curso	In progress
+Consultas financieras finalizadas; informes en cola	Financial queries finished; reports queued
+páginas recibidas ·	pages received ·
+tramos rechazados por Amazon; histórico incompleto.	date ranges rejected by Amazon; history incomplete.
+Los informes se procesan por separado. Esto no confirma que se hayan recuperado todos los datos ni las facturas PDF.	Reports are processed separately. This does not confirm that all data or invoice PDFs have been retrieved.
+Conexiones privadas por región de Amazon	Private connections by Amazon region
+Región	Region
+Europa, Oriente Medio, África e India	Europe, Middle East, Africa and India
+Norteamérica y Brasil	North America and Brazil
+Asia-Pacífico	Asia Pacific
+Cada región utiliza su propia autorización privada y credenciales cifradas. Añadir una región no sustituye la conexión existente. Los datos de la misma empresa se mantienen en este PC.	Each region uses its own private authorisation and encrypted credentials. Adding a region preserves the existing connection. Your company data stays on this PC.
+Región conectada	Region connected
+Credenciales guardadas · falta comprobar	Credentials saved · verification required
+Región pendiente de configurar	Region not configured
+. Solo se detectan los mercados habilitados en vuestra cuenta; no se abren nuevas tiendas automáticamente.	. Only marketplaces enabled in your account are detected; new stores are not opened automatically.
+Seguridad de esta instalación	Installation security
+Esta versión funciona en tu PC. Cada instalación utiliza sus propios datos y credenciales de Amazon.	This version runs on your PC. Each installation uses its own data and Amazon credentials.
+Acceso y transporte:	Access and transport:
+Modo HTTPS y sesión local habilitados.	HTTPS and local sessions enabled.
+Modo protegido pendiente de activar. Consulta HTTPS-LOCAL.md.	Protected mode is not enabled. See HTTPS-LOCAL.md.
+Credenciales:	Credentials:
+el servidor local de Windows permite guardarlas cifradas con DPAPI.	the Windows local server stores credentials encrypted with DPAPI.
+Copias:	Backups:
+disponibles bajo demanda mediante COPIA-SEGURIDAD.ps1. Su restauración requiere el mismo perfil de Windows.	available on demand using COPIA-SEGURIDAD.ps1. Restoring requires the same Windows profile.
+Cifrado del disco:	Disk encryption:
+se configura fuera de la aplicación, en Windows. La aplicación no lo activa ni certifica su estado.	configured in Windows. The application does not enable or certify disk encryption.
+Datos activos:	Active data:
+esta versión no incorpora cifrado propio de la base de datos, los PDF ni los informes.	this version does not encrypt the database, PDFs or reports at application level.
+Los controles opcionales de instalación no sustituyen los requisitos que Amazon exija para los permisos solicitados. Consulta SEGURIDAD-OPERATIVA.md en la carpeta del programa.	Optional installation controls do not replace Amazon requirements. See SEGURIDAD-OPERATIVA.md in the project folder.
+Conecta vuestra cuenta de Amazon	Connect your Amazon account
+Una aplicación privada de SP-API, autorizada por el usuario principal de la cuenta. No hace falta publicarla en el Appstore.	A private SP-API application authorised by the primary account user. No Appstore listing is required.
+Cuenta comprobada	Account verified
+Pendiente de registro y autorización	Registration and authorisation required
+Registrar el acceso de desarrollador	Register developer access
+Entrar con el usuario principal. En Seller Central: Aplicaciones y servicios → Desarrollar aplicaciones. Amazon puede dirigir al Solution Provider Portal y solicitar un perfil de desarrollador privado.	Sign in as the primary user. In Seller Central: Apps and Services → Develop Apps. Amazon may redirect to the Solution Provider Portal and require a private developer profile.
+Abrir Seller Central	Open Seller Central
+Crear «AMAZON FINANCE OPEN SOURCE» para uso propio	Create AMAZON FINANCE OPEN SOURCE for your own organisation
+Elegir una aplicación SP-API privada para vendedores. Solicitar Finance and Accounting, Amazon Fulfillment y los roles que Amazon indique para consultar mercados. Para ventas y tráfico: Brand Analytics.	Choose a private seller SP-API application. Request Finance and Accounting, Amazon Fulfillment and required marketplace roles. Sales and Traffic requires Brand Analytics.
+Autoautorizar la aplicación	Self-authorise the application
+En la aplicación, elegir «Authorize app». Obtener el Client ID, Client Secret de LWA y el Refresh Token. No hace falta publicar la aplicación.	Choose Authorize app. Obtain the LWA Client ID, Client Secret and Refresh Token. Publishing is not required.
+Guardar aquí y comprobar mercados	Save here and verify marketplaces
+Los tres valores se envían exclusivamente al servidor de esta aplicación. En Windows se guardan cifrados con DPAPI, vinculados a tu usuario.	These values are sent only to this application's server. Windows stores them encrypted with DPAPI, tied to your Windows user.
+Registro oficial	Official registration
+Autoautorización	Self-authorisation
+Credenciales de la aplicación	Application credentials
+Son claves de SP-API, no tu contraseña de Amazon. No las pegues en el chat.	These are SP-API credentials, not your Amazon password. Do not paste them into chat.
+Credenciales cifradas. Ahora comprueba la conexión.	Credentials encrypted. Now verify the connection.
+Introduce el valor obtenido en Amazon	Enter the value provided by Amazon
+Guardar cifrado en este equipo	Save encrypted on this PC
+En el alojamiento, configura las variables AMAZON_CLIENT_ID, AMAZON_CLIENT_SECRET y AMAZON_REFRESH_TOKEN mediante el almacén de secretos del servidor.	Configure AMAZON_CLIENT_ID, AMAZON_CLIENT_SECRET and AMAZON_REFRESH_TOKEN using the server's secret store.
+Conexión comprobada:	Connection verified:
+Comprobar conexión y mercados	Verify connection and marketplaces
+Mercados detectados:	Detected marketplaces:
+. Comprobado el	. Verified on
+Informes fiscales y facturas	Tax reports and invoices
+SC_VAT_TAX_REPORT y GET_VAT_TRANSACTION_DATA necesitan el rol Tax Invoicing (Restricted), aprobación adicional y RDT. El conector solicita un token limitado al documento cuando ese acceso está aprobado. El informe VCS no sustituye los PDF de facturas.	SC_VAT_TAX_REPORT and GET_VAT_TRANSACTION_DATA require Tax Invoicing (Restricted), approval and an RDT. A document-scoped token is requested when approved. VCS reports do not replace invoice PDFs.
+Descripción de uso para Amazon	Usage description for Amazon
+Aplicación privada de la empresa titular de la cuenta para consultar sus propios mercados autorizados, descargar informes comerciales y financieros, archivar documentos y conciliar operaciones. No modifica pedidos, precios ni inventario. Los accesos fiscales se limitarán a la facturación de la propia cuenta.	Private la empresa titular de la cuenta application for its authorised marketplaces, reports, document archiving and reconciliation. It does not modify orders, prices or inventory. Tax access is limited to its own account.
+Movimientos financieros	Financial transactions
+Consulta paginada, hasta 179 días por periodo. Los movimientos se guardan con el desglose original, todavía sin clasificación contable.	Paginated query, up to 179 days per range. Transactions retain their original breakdown and require accounting classification.
+Página guardada; quedan páginas pendientes.	Page saved; more pages remain.
+Periodo financiero recuperado.	Financial date range retrieved.
+Recuperar periodo	Retrieve date range
+Página adicional guardada.	Additional page saved.
+Continuar páginas pendientes	Continue remaining pages
+registros recibidos ·	records received ·
+Periodo consultado completo	Date range fully queried
+Quedan páginas por consultar	More pages remain
+Primero registra y autoriza la aplicación en «Conexión Amazon». El centro de informes ya está preparado.	First register and authorise under Amazon connection. The report centre is ready.
+Centro de informes Amazon	Amazon report centre
+Solicita por mercado, conserva el original y descarga los archivos desde un solo sitio.	Request reports by marketplace, retain originals and download files in one place.
+Actualizar estado	Refresh status
+Permiso:	Permission:
+Pendiente de cargar catálogo	Loading report catalogue
+La disponibilidad depende de los permisos, mercado y periodo autorizados.	Availability depends on permissions, marketplace and date range.
+Selecciona un mes natural completo cerrado. El informe incluye los mercados disponibles.	Select a complete past calendar month. Includes available marketplaces.
+Las fechas filtran la creación del informe, no las fechas de las operaciones.	Dates filter report creation, not transaction dates.
+Los periodos largos se dividen en ventanas de hasta 31 días.	Long ranges are split into windows of up to 31 days.
+tareas añadidas. La cola se procesará mientras el servidor esté encendido. Las solicitudes repetidas se omiten.	tasks added. The queue runs while the server is on. Duplicate requests are skipped.
+Buscar informes disponibles	Find available reports
+Solicitar informes seleccionados	Request selected reports
+Exportar datos completos	Export complete data
+Descarga los movimientos originales y los informes disponibles, sin limitarte a las vistas previas.	Download original transactions and available reports without preview limits.
+Descargar archivo completo ·	Download complete archive ·
+todos los mercados	all marketplaces
+ZIP con JSON original por movimiento, índice CSV, informes completos y manifiesto de procedencia. Solo incluye los datos ya descargados. También puedes descargar cada informe con «Original».	ZIP with original transaction JSON, CSV index, full reports and provenance. Downloaded data only. Individual reports are available under Original.
+Archivo y seguimiento	Archive and progress
+tareas · Actualización de estados cada 15 segundos	tasks · Status refreshes every 15 seconds
+Filtrar informes por mercado	Filter reports by marketplace
+Todos los mercados	All marketplaces
+Informe / mercado	Report / marketplace
+Pendiente de ID Amazon	Awaiting Amazon ID
+Vista previa	Preview
+Informe preparado para reintentar.	Report ready to retry.
+Aquí aparecerán tus informes	Your reports will appear here
+Sin datos de ejemplo. Los archivos no se añaden automáticamente al saldo financiero para evitar duplicar operaciones.	No sample data. Reports are not automatically added to activity, to avoid double counting.
+El servidor procesa la cola con límites de frecuencia y reintentos. Si cierras el servidor, la cola se conserva para el siguiente inicio. No es un servicio alojado 24/7. Las facturas PDF de cargos y los datos publicitarios necesitan sus propias fuentes.	The local server processes the queue with rate limits and retries. The queue is preserved after shutdown. This is not a hosted 24/7 service. Invoice PDFs and advertising metrics require their respective sources.
+Cerrar vista previa	Close preview
+Primeras 5 filas o agregados. El archivo original descargable contiene todos los datos devueltos por Amazon.	First five rows or aggregates. The downloadable original contains all data returned by Amazon.
+Descargar original	Download original
+No se pudo conectar con el servidor local. Reintenta en unos segundos.	Could not connect to the local server. Retry in a few seconds.
+No se ha podido completar la operación	Could not complete the operation
+Leyendo documentos	Reading documents
+PDF guardados ·	PDFs saved ·
+duplicados omitidos	duplicates skipped
+documentos sin extracción: revisar manualmente	documents without extracted text: review manually
+Guardando documento	Saving document
+Documento conciliado sin añadir gastos duplicados.	Document reconciled without duplicating expenses.
+Datos del documento validados.	Document data validated.
+Borrador guardado.	Draft saved.
+Consultando Amazon	Querying Amazon
+Conexión comprobada.	Connection verified.
+Página guardada. Pulsa «Continuar» para recuperar la siguiente.	Page saved. Select Continue for the next page.
+Periodo recuperado. Los desgloses siguen pendientes de clasificación.	Date range retrieved. Breakdowns still require classification.
+Amazon · Multimercado	Amazon · Multiple marketplaces
+ESPACIO FINANCIERO	FINANCE WORKSPACE
+Amazon autorizado	Amazon authorised
+Amazon sin conectar	Amazon not connected
+Conector financiero inicial	Initial financial connector
+Conecta tu cuenta para empezar	Connect your account to get started
+Configurar conexión	Configure connection
+Espacio privado	Private workspace
+Solo en este equipo	On this PC only
+Privado · 1 cuenta	Private · One organisation
+Cerrando sesión	Signing out
+Cerrar sesión	Sign out
+Tu negocio, en perspectiva.	Your business at a glance.
+Toda tu actividad financiera. Una cuenta, todos tus mercados.	All your financial activity. One organisation, all your marketplaces.
+Compara tiendas y abre el detalle de cada mercado.	Compare stores and explore each marketplace.
+Consulta operaciones, referencias y datos de origen.	Review transactions, references and original data.
+Facturas emitidas, recibidas y abonos, con su PDF original.	Issued and received invoices and credit notes, with original PDFs.
+Revisa documentos y vincúlalos a sus movimientos.	Review documents and link them to transactions.
+Consulta pagos importados y sus referencias.	Review imported payouts and references.
+Prepara todos los datos y documentos disponibles para tu contable.	Prepare available data and documents for your accountant.
+Solicita, consulta y descarga informes por mercado.	Request, review and download reports by marketplace.
+Autoriza tu cuenta y comprueba qué datos están disponibles.	Authorise your account and check data availability.
+Exportar CSV	Export CSV
+Cerrar aviso	Dismiss notification
+Inicia sesión	Sign in
+Iniciar sesión	Sign in
+Vista limitada a 20.000 movimientos y 2.000 documentos. El resumen y la comparativa usan todos los registros guardados; las listas y sus exportaciones son parciales.	Lists are limited to 20,000 transactions and 2,000 documents. Overview and comparisons use all records; list exports are partial.
+Moneda original	Original currency
+Estado Amazon	Amazon status
+Todos los estados	All statuses
+Pendientes de liberar	Awaiting release
+Liberados tras retención	Released after deferral
+Limpiar filtros	Clear filters
+Amazon conectado. Todavía no has recuperado movimientos: los filtros solo se aplican a los datos guardados en este PC.	Amazon connected. No transactions retrieved yet: filters apply only to data stored on this PC.
+Recuperar movimientos	Retrieve transactions
+No hay movimientos que coincidan con estos filtros. Cambia el periodo, el mercado o la moneda.	No transactions match. Change the date range, marketplace or currency.
+movimientos guardados ·	stored transactions ·
+· Los filtros se aplican automáticamente. Para traer datos nuevos, usa «Conexión Amazon».	· Filters apply automatically. Retrieve new data under Amazon connection.
+Tu centro financiero está listo para recibir datos	Your finance workspace is ready for data
+Conecta Amazon o importa movimientos y facturas para empezar. No hay cifras de ejemplo.	Connect Amazon or import transactions and invoices. No sample figures are used.
+Preparar conexión	Set up connection
+1. Ventas del periodo	1. Sales for the period
+Devoluciones descontadas en las tres cifras ·	Refunds deducted in all three figures ·
+Ventas con impuestos	Sales including tax
+Total vendido menos devoluciones	Total sales less refunds
+Ventas sin impuestos	Sales excluding tax
+Base de ventas menos devoluciones	Sales base less refunds
+Impuestos incluidos en las ventas	Tax included in sales
+Neto de devoluciones · liquidación fiscal pendiente	Net of refunds · tax settlement not calculated
+Calculando…	Calculating…
+Estos impuestos forman parte de las ventas: no son ingreso propio. El importe efectivamente pagado o pendiente de ingresar a Hacienda no se conoce con estos datos.	These taxes are included in sales, not your revenue. These data do not establish tax already paid or still payable to the tax authority.
+2. Gastos de servicios de Amazon	2. Amazon service expenses
+Comisiones, logística, almacenamiento, publicidad y demás cargos identificados · reintegros descontados	Commission, fulfilment, storage, advertising and other identified charges · net of reimbursements
+Gastos de Amazon con impuestos	Amazon expenses including tax
+Total de cargos identificados, neto de reintegros	Identified charges, net of reimbursements
+Gastos de Amazon sin impuestos	Amazon expenses excluding tax
+Coste antes de impuestos identificados	Cost before identified taxes
+Impuestos cobrados por Amazon	Tax charged by Amazon
+Potencialmente deducibles · validar con facturas	Potentially deductible · verify against invoices
+Los impuestos ya están incluidos en el total de gastos: no se añaden otra vez. No se ha verificado qué parte es deducible ni qué impuestos se han recuperado fiscalmente.	Taxes are already included in charges; do not add them again. Deductibility and tax recovery have not been verified.
+Resultado dentro de Amazon	Result within Amazon
+3. RESULTADO DENTRO DE AMAZON ·	3. RESULT WITHIN AMAZON ·
+Resultado neto de impuestos identificados	Result excluding identified taxes
+Ventas sin impuestos − gastos de Amazon sin impuestos.	Sales excluding tax − Amazon expenses excluding tax.
+Las devoluciones y los reintegros de gastos ya están descontados.	Refunds and expense reimbursements are already deducted.
+Provisional, pendiente de contrastar con la operativa externa. No incluye coste de producto, otros costes externos ni impuesto sobre beneficios. Los ajustes sin clasificar se muestran aparte y no se incorporan como beneficio.	Provisional, pending reconciliation with external operations. Excludes product costs, other external costs and income tax. Unclassified adjustments are separate and are not assumed to be profit.
+Hay operaciones con impuestos sin desglosar; las cifras sin impuestos son provisionales.	Some transactions lack tax detail; tax-exclusive figures are provisional.
+4. Transferencias de Amazon de este año ·	4. Amazon transfers this year ·
+Desde el 1 de enero hasta hoy ·	From 1 January to today ·
+. Este bloque anual no utiliza las fechas ni el estado del filtro del resultado.	. This annual section does not use the date or status filters above.
+Actualizando pagos del año y saldo en Amazon	Updating annual payouts and Amazon balances
+Actualizar pagos y saldo	Refresh payouts and balances
+Transferido este año según Amazon	Transferred this year according to Amazon
+Solo transferencias completadas; sin acumulado de años anteriores	Completed transfers only; excludes previous years
+Retenido actualmente	Currently reserved
+Saldo actual; no se descuenta otra vez de lo transferido	Current balance; not deducted again from transfers
+Disponible actualmente en Amazon	Currently available at Amazon
+Saldo actual todavía dentro de Amazon	Current balance still held at Amazon
+No disponible	Unavailable
+Consultando…	Loading…
+A qué corresponden las transferencias del año	What the annual transfers relate to
+pagos con detalle completo descargado.	payouts with full details downloaded.
+Consulta del resto en curso o pendiente. Las cifras del desglose son parciales.	Remaining details are being queried or pending. The breakdown is partial.
+Detalle de todos los pagos del año disponible.	All annual payout details are available.
+Concepto identificado dentro de los pagos detallados	Identified component of detailed payouts
+Ventas netas de devoluciones, sin impuestos identificados	Sales net of refunds, excluding identified tax
+Gastos de Amazon sin impuestos identificados	Amazon expenses excluding identified taxes
+Resultado identificado antes de producto y operativa externa	Identified result before product and external costs
+Impuestos incluidos en ventas y devoluciones	Tax included in sales and refunds
+Impuestos incluidos en cargos Amazon	Tax included in Amazon charges
+Otros movimientos identificados pendientes de clasificar	Other transactions awaiting classification
+Diferencia entre las transferencias detalladas y sus movimientos	Difference between transfers and related transactions
+Pendiente de detalle	Details pending
+Impuestos pendientes de pagar: por determinar.	Outstanding tax: not determined.
+Las transferencias no indican qué impuestos se han declarado, ingresado o compensado. Los impuestos identificados no son una deuda fiscal calculada. El resultado mostrado tampoco es beneficio final: faltan coste de producto, operativa externa y resolver las diferencias de liquidación.	Transfers do not establish taxes declared, paid or offset. Identified tax is not a calculated liability. The result is not final profit: product and external costs and settlement differences remain.
+Descargar transferencias del año (CSV)	Download annual transfers (CSV)
+Ver cada transferencia del año y su correspondencia (	View annual transfers and their allocation (
+Fecha de transferencia	Transfer date
+Resultado identificado sin producto	Identified result before product costs
+Impuestos de ventas netas	Tax on net sales
+Diferencia pendiente	Unresolved difference
+Correspondencia por identificador de liquidación de Amazon y sus transacciones liberadas; no se cruza por proximidad de fechas ni por importes parecidos.	Linked by Amazon settlement ID and released transactions, not by similar dates or amounts.
+Pagos consultados:	Payouts queried:
+La cobertura de liquidaciones no está completa.	Settlement coverage is incomplete.
+Los pagos sin mercado enlazado solo aparecen al seleccionar todos los mercados.	Payouts without a marketplace appear only under all marketplaces.
+Las partidas sin explicar no se asignan automáticamente a impuestos ni beneficio.	Unexplained items are not assigned to tax or profit automatically.
+movimientos pendientes de clasificación contable. Las tarjetas usan los desgloses identificados de Amazon; otros ajustes solo aparecen en el saldo.	transactions awaiting accounting classification. Cards use identified Amazon breakdowns; other adjustments appear only in activity totals.
+En qué se gasta el dinero en Amazon	Where the money goes at Amazon
+Costes identificados del periodo ·	Identified costs for the period ·
+. Importes positivos: coste; negativos: reintegros netos.	. Positive: costs; negative: net reimbursements.
+Coste sin impuestos identificados	Cost excluding identified tax
+Impuestos incluidos	Included tax
+Total del cargo	Total charge
+Detalle de origen Amazon	Amazon source details
+Total de gastos, netos de reintegros	Total expenses, net of reimbursements
+Base del coste + impuestos incluidos = total del cargo. Los impuestos no se añaden otra vez ni representan un pago fiscal pendiente. La posibilidad de deducirlos se revisa con las facturas. Publicidad incluye solo cargos comunicados por Amazon; un cero no acredita ausencia de otros cargos. Los conceptos sin detalle quedan identificados como pendientes.	Cost base + included tax = total charge. Tax is not added again or treated as payable. Deductibility requires invoice review. Advertising includes Amazon-reported charges only; zero does not prove there are no other costs. Unidentified charges remain flagged.
+Hay una diferencia de desglose pendiente de revisar:	A breakdown difference requires review:
+Se excluyen	Excluding
+registros de liberación vinculados a operaciones anteriores para evitar duplicar ventas y gastos. Estas ventas por fecha de registro financiero pueden diferir de «Ventas y tráfico», que usa otra fuente.	release records linked to earlier transactions to avoid duplicate sales and expenses. Financial posting dates may differ from Sales and Traffic.
+Cuenta de actividad Amazon ·	Amazon activity statement ·
+Importes del periodo y estado seleccionados. Coste de producto excluido.	Selected date range and status. Product costs excluded.
+Ventas antes de impuestos identificados	Sales before identified tax
+Devoluciones antes de impuestos identificados	Refunds before identified tax
+Ventas netas de devoluciones	Sales net of refunds
+Gastos Amazon netos de reintegros, antes de impuestos identificados	Amazon expenses net of reimbursements, before identified tax
+Resultado identificado antes de coste de producto	Identified result before product costs
+Impuestos identificados de ventas y devoluciones	Identified tax on sales and refunds
+Impuestos identificados de gastos	Identified tax on expenses
+Otros movimientos pendientes de clasificación	Other transactions awaiting classification
+Total de actividad con impuestos	Total activity including tax
+Comprobación: resultado identificado + impuestos identificados + otros movimientos = total de actividad. Diferencia:	Check: identified result + identified tax + other transactions = total activity. Difference:
+. Las filas de ventas netas y resultado son subtotales; no se vuelven a sumar.	. Net sales and result rows are subtotals; do not add them again.
+Resultado provisional: excluye coste de producto y costes externos aún no incorporados. Otros movimientos pueden incluir ajustes y reservas y no se consideran beneficio automáticamente.	Provisional: excludes product and external costs not yet added. Other transactions may include adjustments and reserves and are not assumed to be profit.
+operaciones tienen desglose fiscal insuficiente; las bases sin impuestos son provisionales.	transactions lack tax detail; tax-exclusive bases are provisional.
+La cobertura histórica y la diferencia con Ventas y tráfico siguen pendientes de conciliación.	Historical coverage and the Sales and Traffic difference still require reconciliation.
+Tesorería · cobros de Amazon	Cash flow · Amazon payouts
+Pagos de Amazon identificados	Identified Amazon payouts
+Fondos de vuelta a Amazon	Funds returned to Amazon
+Transferencias netas identificadas	Identified net transfers
+Los cobros trasladan dinero: no aumentan ni reducen el resultado. Pueden corresponder a actividad de otros periodos. Pendientes de cotejo bancario; no equivalen al saldo pendiente de Amazon.	Payouts transfer funds, not profit. They may settle other periods. They are not a reconciled bank balance or Amazon's outstanding balance.
+Impuestos incluidos en las operaciones	Tax included in transactions
+Sobre ventas	On sales
+Sobre devoluciones	On refunds
+Incluidos en cargos de Amazon	Included in Amazon charges
+Los impuestos de gastos ya están incluidos en lo que Amazon carga: no se vuelven a pagar por aparecer aquí. Se separan de la base del coste. Su deducibilidad y la liquidación fiscal deben contrastarse con las facturas; esta pantalla no calcula impuestos pendientes de pago.	Expense taxes are already in Amazon charges: displaying them does not create another payment. Deductibility and tax settlement require invoice review. Outstanding tax is not calculated here.
+Datos originales de Amazon	Original Amazon data
+Exportación completa de lo descargado, sin el límite de 20.000 registros de las listas.	Export downloaded data without the lists' 20,000-record limit.
+Movimientos originales · filtros actuales	Original transactions · current filters
+Todo lo descargado · ZIP	All downloaded data · ZIP
+Incluye JSON de movimientos, índice CSV y procedencia. El ZIP completo añade los informes originales disponibles. Conserva también las liberaciones vinculadas: no deben contarse como ventas adicionales. Los informes pendientes aún no están incluidos.	Includes transaction JSON, CSV index and provenance. The full ZIP adds available original reports. Linked releases must not count as additional sales. Pending reports are not included yet.
+Evolución de ventas	Sales trend
+Importes registrados ·	Recorded amounts ·
+Aquí verás la evolución de tus ventas	Your sales trend will appear here
+Los gráficos se construirán con tus movimientos clasificados.	Charts use identified transaction data.
+Control documental	Document review
+Dentro de los filtros seleccionados	Within the selected filters
+Pendientes de revisión	Awaiting review
+Datos validados	Validated data
+Las facturas documentan las operaciones; no se suman otra vez al saldo.	Invoices support transactions; they are not added to activity again.
+Abrir documentos	Open documents
+Última consulta:	Last query:
+Sin sincronizaciones todavía	No synchronisation yet
+Importes originales · sin conversión de divisas	Original amounts · no currency conversion
+Cobros y transferencias de Amazon	Amazon payouts and transfers
+Explorador de movimientos	Transaction explorer
+registros · Los importes conservan su signo original	records · Amounts retain their original sign
+Importar CSV	Import CSV
+Leyendo CSV	Reading CSV
+CSV máximo 5 MB	CSV maximum size: 5 MB
+Buscar pedido, SKU, referencia o concepto	Search order, SKU, reference or description
+Tipo de movimiento	Transaction type
+Todos los tipos	All types
+Plantilla CSV	CSV template
+Fecha / origen	Date / source
+Pedido / referencia	Order / reference
+Sin descripción	No description
+Cobro de Amazon	Amazon payout
+No hay movimientos para esta selección	No transactions match this selection
+Importa un CSV con la plantilla o recupera los movimientos de Amazon.	Import a CSV using the template or retrieve Amazon transactions.
+Plantilla: id, fecha (AAAA-MM-DD), mercado (ES/DE/…), moneda, tipo, importe; opcionales pedido, sku, referencia y concepto. Gastos y devoluciones negativos. Reimportar el mismo ID actualiza el registro.	CSV template: keep the original Spanish column keys. Dates are YYYY-MM-DD. Expenses and refunds are negative. Reimporting the same ID updates the record.
+Archivo de facturas	Invoice archive
+Bandeja de conciliación	Reconciliation inbox
+documentos · Originales conservados y duplicados detectados por contenido	documents · Originals preserved and duplicates detected by content
+Subir PDF	Upload PDF
+Buscar factura, emisor o referencia	Search invoice, issuer or reference
+PDF con texto: extracción local · Escaneados: revisión manual	Text PDFs: local extraction · Scans: manual review
+Tipo / mercado	Type / marketplace
+Emisor pendiente de revisar	Issuer awaiting review
+Tus facturas, ordenadas y conectadas	Your invoices, organised and linked
+Sube facturas emitidas por Amazon en vuestro nombre, facturas de servicios y abonos. Revisa los datos antes de validarlos.	Upload invoices issued by Amazon on your behalf, service invoices and credit notes. Review before validating.
+La conciliación de esta versión vincula documentos a movimientos seleccionados y comprueba moneda e importe. No sustituye una revisión contable ni realiza cruces automáticos por similitud.	This version links documents to selected transactions and checks currency and amount. It does not replace accounting review or match automatically by similarity.
+Primera versión · Información financiera trazable	Initial version · Traceable financial data
+IMPORTACIÓN CSV	CSV IMPORT
+Revisa antes de importar	Review before importing
+filas con estructura válida. Los registros con el mismo ID se actualizarán. Usa siempre IDs estables y únicos.	valid rows. Existing IDs will be updated. Use stable, unique IDs.
+Importando movimientos	Importing transactions
+movimientos procesados.	transactions processed.
+Confirmar importación	Confirm import
+MOVIMIENTO ORIGINAL	ORIGINAL TRANSACTION
+Ver respuesta original de Amazon	View original Amazon data
+REVISIÓN DOCUMENTAL	DOCUMENT REVIEW
+Abrir PDF original	Open original PDF
+Comprueba los campos contra el original. Las sugerencias de extracción no están verificadas.	Check fields against the original. Extracted suggestions are not verified.
+Número de factura	Invoice number
+Referencia compartida	Shared reference
+Vincular movimientos	Link transactions
+Sugerencias por referencia exacta. También puedes seleccionar movimientos de la misma moneda.	Suggestions use exact references. You can also select transactions in the same currency.
+Importa movimientos para poder conciliarlos.	Import transactions before reconciling them.
+Abonos tratados como devolución de venta (importe negativo). Los abonos de proveedor requieren revisión específica.	Credit notes are treated as sales refunds. Supplier credit notes need specific review.
+Texto extraído del PDF	Text extracted from PDF
+Este PDF no contiene texto extraíble o no se pudo leer. Puedes completar los campos manualmente. El OCR está pendiente de integrar.	No extractable text or unreadable PDF. Complete fields manually. OCR is not integrated yet.
+Guardar borrador	Save draft
+Validar datos	Validate data
+Validar y conciliar	Validate and reconcile
+Resultados por mercado	Results by marketplace
+Comparación en	Comparison in
+· Sin mezclar monedas	· Currencies are not mixed
+Resultado sin coste de producto	Result before product costs
+Saldo movimientos	Transaction balance
+Los mercados aparecerán al incorporar tus primeros movimientos.	Marketplaces appear after transactions are added.
+No se pudo conectar con el servidor local. Pulsa Reintentar carga; los datos guardados se conservan.	Could not connect to the local server. Select Retry loading; stored data is preserved.
+informes nuevos en cola. Las unidades aparecerán cuando Amazon los prepare y se descarguen.	new reports queued. Quantities appear when Amazon prepares them and they are downloaded.
+Unidades vendidas por producto	Units sold by product
+Fuente: Ventas y tráfico de Amazon. Unidades pedidas, enviadas y devueltas se muestran por separado; no son cantidades cobradas.	Source: Amazon Sales and Traffic. Ordered, shipped and refunded units are separate, not paid quantities.
+Solicitar informes del periodo	Request reports for date range
+Descargar CSV de productos	Download product CSV
+Reintentar carga	Retry loading
+Cobertura descargada:	Downloaded coverage:
+días	days
+sin informes completos para esta selección	no complete reports for this selection
+no se ha podido cargar	could not load
+consultando…	loading…
+. Los mercados o días sin cobertura no equivalen a cero ventas. Se evita sumar informes solapados. Este informe identifica productos por ASIN; aún no incluye nombres ni desglose por SKU.	. Missing marketplaces or days do not mean zero sales. Overlapping reports are not added twice. Products use ASINs; names and SKU breakdown are not included yet.
+Unidades pedidas	Units ordered
+Ventas pedidas	Ordered product sales
+No hay informes descargados utilizables para este periodo. Solicítalos con el botón superior.	No usable reports for this date range. Request them above.
+El CSV contiene todas las filas calculadas. Consulta y descarga los archivos originales en Informes Amazon. Los datos comerciales disponibles dependen de los límites y permisos de Amazon.	The CSV contains all calculated rows. Original files are under Amazon reports. Availability depends on Amazon limits and permissions.
+Comisiones por vender	Selling commissions
+Preparación y entrega de pedidos	Order fulfilment and delivery
+Cargos de transporte al cliente	Customer shipping charges
+Almacenamiento mensual	Monthly storage
+Almacenamiento prolongado	Aged inventory storage
+Publicidad cobrada por Amazon	Advertising charged by Amazon
+Cuota de la cuenta de vendedor	Seller account subscription
+Transporte hacia almacenes Amazon	Inbound transport to Amazon warehouses
+Recargo por servicios digitales	Digital services surcharge
+Tarifas por ofertas y promociones	Deal and promotion fees
+Descuentos y promociones a clientes	Customer discounts and promotions
+Tarifas de liquidación de inventario	Inventory liquidation fees
+Cargos medioambientales	Environmental charges
+Otros cargos pendientes de identificar	Other charges awaiting identification
+Ventas y tráfico por día y ASIN	Sales and traffic by day and ASIN
+Ventas enviadas por FBA	FBA shipped sales
+Devoluciones de clientes FBA	FBA customer returns
+Reembolsos de inventario FBA	FBA inventory reimbursements
+Estimación de almacenamiento FBA	Estimated FBA storage fees
+Liquidaciones V2	Settlement reports V2
+Cálculos de IVA y facturación VCS	VAT calculations and VCS invoicing
+Transacciones de IVA paneuropeas	Pan-European VAT transactions
+No se han encontrado mercados activos en esta región con esta autorización	No active marketplaces in this region with this authorisation
+Completa los tres valores de la aplicación de Amazon	Complete all three Amazon application credentials
+Región de Amazon no admitida	Unsupported Amazon region
+Primero registra y autoriza la aplicación de Amazon	First register and authorise the Amazon application
+Selecciona mercados autorizados	Select authorised marketplaces
+No se pudo autorizar la aplicación con Amazon. Revisa los tres valores y la autoautorización.	Could not authorise the application. Check credentials and self-authorisation.
+Amazon ha denegado el acceso. Comprueba la autorización y el rol del informe.	Amazon denied access. Check authorisation and report roles.
+Amazon ha limitado temporalmente las peticiones. Se reintentará sin perder la cola.	Amazon temporarily rate-limited requests. The queue is preserved and will retry.
+No se ha podido contactar con Amazon. Comprueba la conexión.	Could not contact Amazon. Check your connection.
+Sesión requerida: inicia sesión con contraseña y autenticador	Session required: sign in with your password and authenticator
+
+AMAZON FINANCE OPEN SOURCE · SOLO EN ESTE PC	AMAZON FINANCE OPEN SOURCE · ON THIS PC ONLY
+Acceso protegido	Protected access
+Comprobando la configuración local…	Checking local configuration…
+Contraseña	Password
+Repite la contraseña	Repeat password
+Cambiar contraseña	Change password
+Nueva contraseña	New password
+Repite la nueva contraseña	Repeat new password
+Código de tu autenticador	Authenticator code
+6 dígitos	6 digits
+Entrar	Sign in
+Cerrar sesión actual	Sign out current session
+Mostrar clave para configuración manual	Show key for manual setup
+QR de vinculación de tu autenticador	Authenticator setup QR code
+Mínimo 12 caracteres, con mayúsculas, minúsculas, números y un carácter especial. Renovación anual. Conserva acceso a tu autenticador: no hay recuperación automática.	At least 12 characters, including upper/lower case, numbers and a special character. Annual renewal. Keep your authenticator: there is no automatic recovery.
+1. Abre tu aplicación autenticadora en el móvil y añade una cuenta escaneando este QR. También puedes introducir la clave manualmente como cuenta TOTP de 6 dígitos, cada 30 segundos.	1. Open your mobile authenticator and scan this QR code, or enter the key as a six-digit TOTP account with a 30-second period.
+2. Crea una contraseña exclusiva para AMAZON FINANCE OPEN SOURCE e introduce el código de tu móvil. El QR y la clave son secretos: no los compartas.	2. Create a unique password for AMAZON FINANCE OPEN SOURCE and enter your mobile code. Keep the QR code and key secret.
+La contraseña y el código se verifican en este ordenador. No se usa ningún servicio externo para generar el QR o validar el acceso. Si el autenticador ofrece copia en la nube, esa función es independiente: puedes mantenerla desactivada.	Password and code are verified on this PC. No external service generates the QR or validates access. Any cloud backup offered by your authenticator is separate and can remain disabled.
+Introduce tu contraseña y el código del autenticador del móvil.	Enter your password and mobile authenticator code.
+Configura tu acceso en dos pasos	Set up two-step access
+Usuario único: Martín. La configuración se guarda cifrada para tu usuario de Windows.	Single local user. Configuration is stored encrypted for your Windows profile.
+Para configurar el acceso, cierra esta pestaña y abre el acceso directo AMAZON FINANCE OPEN SOURCE del escritorio.	To set up access, close this tab and open the AMAZON FINANCE OPEN SOURCE desktop shortcut.
+Activar contraseña y autenticador	Enable password and authenticator
+Guardar nueva contraseña	Save new password
+Las contraseñas no coinciden.	Passwords do not match.
+Las nuevas contraseñas no coinciden.	New passwords do not match.
+Contraseña o código incorrecto. Un código ya usado no puede repetirse.	Incorrect password or code. A used code cannot be reused.
+No se pudo completar la operación.	Could not complete the operation.
+Ventas, documentos y conciliación de Amazon Europa.	Amazon sales, documents and reconciliation.
+de	of
+Detenida:	Stopped:
+No se pudo procesar el informe. Revisa el archivo y vuelve a intentarlo.	Could not process the report. Review the file and retry.
+Ya hay una cuenta comprobada en esta región. Para cambiar de cuenta hay que preparar un espacio de datos independiente.	A verified account already exists in this region. Changing accounts requires a separate data workspace.
+
+Tu cuenta Amazon	Your Amazon account

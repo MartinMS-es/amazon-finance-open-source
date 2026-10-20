@@ -1,0 +1,11 @@
+import assert from 'node:assert/strict';
+import fs from 'node:fs';import {pathToFileURL} from 'node:url';
+import {setLanguage,translate,getLanguage,getLocale} from '../lib/i18n.mjs';
+setLanguage('es');assert.equal(translate('Resumen'),'Resumen');
+setLanguage('en');assert.equal(translate('Resumen'),'Overview');assert.equal(translate('España'),'Spain');assert.equal(getLocale(),'en-GB');assert.equal(translate('ASIN-123'),'ASIN-123');
+let source=fs.readFileSync('lib/local-jsx-runtime.mjs','utf8').replace("'react/jsx-runtime-original'",JSON.stringify(pathToFileURL(process.cwd()+'/node_modules/react/cjs/react-jsx-runtime.production.js').href)).replace("'./i18n.mjs'",JSON.stringify(pathToFileURL(process.cwd()+'/lib/i18n.mjs').href));
+const runtime=await import('data:text/javascript;base64,'+Buffer.from(source).toString('base64'));
+const option=runtime.jsx('option',{value:'Venta',children:'Venta'});assert.equal(option.props.value,'Venta');assert.equal(option.props.children,'Sale');
+const input=runtime.jsx('input',{value:'Contraseña',placeholder:'Contraseña'});assert.equal(input.props.value,'Contraseña');assert.equal(input.props.placeholder,'Password');
+assert.equal(runtime.jsx('pre',{children:'Venta'}).props.children,'Venta');
+setLanguage('es');assert.equal(translate('España'),'España');console.log('Idioma alternable; etiquetas traducidas, valores y JSON originales intactos: OK');

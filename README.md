@@ -62,4 +62,20 @@ La disponibilidad histórica, los tipos de informe y las facturas dependen de lo
 
 ## GitHub
 
-Este es el código preparado para un repositorio, sin publicación automática. Ver [PUBLICAR-GITHUB.md](PUBLICAR-GITHUB.md). El código propio se ofrece bajo MIT; las dependencias conservan sus licencias. Ver `THIRD-PARTY-NOTICES.txt`.
+Repositorio oficial: [MartinMS-es/amazon-finance-open-source](https://github.com/MartinMS-es/amazon-finance-open-source). Consulta las [versiones descargables](https://github.com/MartinMS-es/amazon-finance-open-source/releases) y las instrucciones de [publicación](PUBLICAR-GITHUB.md).
+
+## Licencia y atribución
+
+El código propio de la versión actual del repositorio se distribuye bajo la **[Free Use and Attribution License](LICENSE)**, una licencia propia de uso gratuito con restricciones de distribución y acceso de pago.
+
+- Cualquier persona o empresa puede usarlo gratuitamente, incluido el uso interno para gestionar sus propias cuentas de Amazon.
+- Se permite estudiar, copiar, modificar y compartir gratuitamente el programa, respetando la licencia.
+- Debe conservarse el aviso de autoría y mostrarse de forma visible **«Original project by MartinMS-es»**, con enlace a [github.com/MartinMS-es](https://github.com/MartinMS-es), en el pie o apartado de información de la aplicación.
+- Sin autorización previa y por escrito del titular, no se permite venderlo, alquilarlo, cobrar por descargarlo, acceder o utilizarlo, ofrecerlo como servicio de pago ni incluirlo en un producto o servicio de pago. Estas condiciones también se aplican a versiones modificadas.
+- Las versiones modificadas deben identificar sus cambios, conservar las mismas condiciones y no sugerir el respaldo del autor original.
+
+El nombre del proyecto se mantiene, pero esta licencia **no es MIT ni una licencia open source conforme a la definición de la Open Source Initiative**: el código está disponible con las restricciones indicadas. El texto completo de `LICENSE` prevalece sobre este resumen.
+
+**Versiones anteriores:** la Release **v1.0.0**, su instalador y las copias previamente distribuidas bajo MIT conservan los permisos que esa licencia concedió. El cambio de licencia del repositorio no modifica retroactivamente esos archivos.
+
+Las dependencias conservan sus respectivas licencias; consulta [THIRD-PARTY-NOTICES.txt](THIRD-PARTY-NOTICES.txt). El programa se entrega sin garantías, en los términos y límites establecidos en `LICENSE`.

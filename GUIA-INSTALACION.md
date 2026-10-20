@@ -1,5 +1,7 @@
 # Instalación de AMAZON FINANCE OPEN SOURCE
 
+**Español** · [English installation guide](INSTALLATION-GUIDE-EN.md)
+
 ## 1. Instalar
 
 Windows 10/11 x64. Ejecuta `AMAZON-FINANCE-OPEN-SOURCE-Setup-1.0.0.exe`, selecciona idioma y carpeta y termina el asistente. No necesitas Python, Node, Docker ni una cuenta de desarrollador de GitHub.

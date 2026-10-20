@@ -1,6 +1,6 @@
 # Preparar la publicación
 
-El repositorio local contiene exclusivamente código, documentación y pruebas sintéticas. No se ha creado ni publicado un repositorio remoto.
+El repositorio local contiene exclusivamente código, documentación y pruebas sintéticas. Repositorio oficial: https://github.com/MartinMS-es/amazon-finance-open-source .
 
 Antes de publicar, ejecuta `python scripts/audit-release.py` y revisa `git status --short`. No añadas bases de datos, documentos, archivos DPAPI, claves privadas, certificados, capturas de cuentas, `.env` ni copias de seguridad. No uses `git add -f` para saltarte `.gitignore`.
 

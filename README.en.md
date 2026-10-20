@@ -75,4 +75,16 @@ Private data is stored at `%LOCALAPPDATA%\AmazonFinanceOpenSource\data`. Never u
 
 ## License and security
 
-Project code is available under the [MIT license](LICENSE). Third-party components retain their own licenses; see [THIRD-PARTY-NOTICES.txt](THIRD-PARTY-NOTICES.txt). See [SECURITY.md](SECURITY.md) for security and data-isolation notes and [CHANGELOG.md](CHANGELOG.md) for release notes.
+Project code in the current repository is distributed under the **[Free Use and Attribution License](LICENSE)**, a custom free-use license restricting paid distribution and access.
+
+- Any individual or organization may use it free of charge, including internal business use to manage their own Amazon accounts.
+- You may inspect, copy, modify and share it free of charge, subject to the license conditions.
+- Copies must retain the copyright notice. The application must visibly display **“Original project by MartinMS-es”**, linking to [github.com/MartinMS-es](https://github.com/MartinMS-es), in its footer or About section.
+- Without the copyright holder's prior written permission, you may not sell or rent the software, charge for downloading, accessing or using it, offer it as a paid service, or include it in a paid product or service. These restrictions also apply to modified versions.
+- Modified versions must identify their changes, retain the same license conditions and not imply endorsement by the original author.
+
+The project name is retained, but this license **is not MIT or an open-source license under the Open Source Initiative definition**. The source is available subject to the stated restrictions. The full `LICENSE` text governs; this section is a summary.
+
+**Earlier versions:** Release **v1.0.0**, its installer and copies previously distributed under MIT retain the permissions granted by that license. Updating the repository license does not retroactively change those files.
+
+Third-party components retain their own licenses; see [THIRD-PARTY-NOTICES.txt](THIRD-PARTY-NOTICES.txt). The software is supplied without warranties, subject to the terms and limits in `LICENSE`. See [SECURITY.md](SECURITY.md) for security and data-isolation notes and [CHANGELOG.md](CHANGELOG.md) for release notes.

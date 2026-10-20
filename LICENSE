@@ -1,21 +1,75 @@
-MIT License
+FREE USE AND ATTRIBUTION LICENSE
+Version 1.0
 
-Copyright (c) 2026 MartinMS-es Amazon Finance Open Source contributors
+AMAZON FINANCE OPEN SOURCE
+Copyright (c) 2026 MartinMS-es
+https://github.com/MartinMS-es
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+1. PERMITTED USE
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+Any individual or organization may use, inspect, copy, modify and
+distribute this software and its documentation (the "Software"),
+free of charge, subject to the conditions below.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+Businesses may use the Software internally to manage their own
+operations, including their own Amazon accounts.
+
+2. REQUIRED ATTRIBUTION
+
+All copies and modified versions must retain this copyright notice
+and the complete text of this license.
+
+The application must visibly display the following attribution in
+its footer or About section:
+
+"Original project by MartinMS-es"
+https://github.com/MartinMS-es
+
+Where hyperlinks are supported, the URL must be clickable.
+The attribution must not be removed, hidden or made illegible.
+
+3. NO PAID DISTRIBUTION OR ACCESS
+
+Without prior written permission from the copyright holder,
+you may not:
+
+- Sell, rent or license the Software for a fee.
+- Charge for downloading, accessing or using the Software.
+- Offer the Software as a paid hosted service or subscription.
+- Include the Software in a paid product or service.
+
+These restrictions also apply to modified versions and derivative
+works. Permitted internal business use does not, by itself,
+constitute paid distribution or paid access.
+
+4. MODIFIED VERSIONS
+
+Modified versions must identify that they have been modified,
+retain the required attribution and be distributed under the
+same license conditions.
+
+You must not imply that the original author endorses your
+modifications, organization, products or services.
+
+5. THIRD-PARTY COMPONENTS
+
+Third-party components remain subject to their respective
+licenses. This license applies only to project code for which
+the copyright holder has authority to grant these permissions.
+
+6. NO WARRANTY
+
+The Software is provided without promises about its reliability,
+accuracy, availability or suitability for any particular purpose.
+
+To the fullest extent permitted by applicable law, the copyright
+holder and contributors disclaim warranties and liability for
+losses arising from use of, or inability to use, the Software.
+
+Nothing in this license excludes rights or liabilities that
+cannot lawfully be excluded.
+
+7. PREVIOUSLY LICENSED COPIES
+
+This license does not revoke permissions already granted for
+copies previously distributed under the MIT License.

@@ -16,3 +16,4 @@ dist/
 tests/*data*/
 tests/afos-*/
 *.tsbuildinfo
+scripts/private-patterns.txt

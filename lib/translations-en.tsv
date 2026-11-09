@@ -161,7 +161,7 @@ Son claves de SP-API, no tu contraseña de Amazon. No las pegues en el chat.	The
 Credenciales cifradas. Ahora comprueba la conexión.	Credentials encrypted. Now verify the connection.
 Introduce el valor obtenido en Amazon	Enter the value provided by Amazon
 Guardar cifrado en este equipo	Save encrypted on this PC
-En el alojamiento, configura las variables AMAZON_CLIENT_ID, AMAZON_CLIENT_SECRET y AMAZON_REFRESH_TOKEN mediante el almacén de secretos del servidor.	Configure AMAZON_CLIENT_ID, AMAZON_CLIENT_SECRET and AMAZON_REFRESH_TOKEN using the server's secret store.
+Las credenciales solo se pueden guardar desde la aplicación instalada en este equipo.	Credentials can only be saved from the application installed on this computer.
 Conexión comprobada:	Connection verified:
 Comprobar conexión y mercados	Verify connection and marketplaces
 Mercados detectados:	Detected marketplaces:

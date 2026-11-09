@@ -6,6 +6,9 @@ import sys
 root = Path(__file__).resolve().parents[1]
 excluded = {'.git', 'node_modules', '__pycache__', 'build', 'dist', '.venv'}
 problems = []
+# Optional, never committed: one regex per line with identifiers that must not leak.
+private_file = root / 'scripts' / 'private-patterns.txt'
+private_patterns = [line.strip().encode() for line in private_file.read_text(encoding='utf-8').splitlines() if line.strip() and not line.startswith('#')] if private_file.exists() else []
 count = 0
 for file in root.rglob('*'):
     relative = file.relative_to(root)
@@ -19,9 +22,9 @@ for file in root.rglob('*'):
         problems.append(str(relative) + ': private/runtime file')
         continue
     raw = file.read_bytes()
-    if file.name == 'audit-release.py':
+    if file.name in ('audit-release.py', 'private-patterns.txt'):
         continue
-    patterns = [rb'C:[/\\]Users[/\\][^/\\\s]+', rb'Atzr\|[A-Za-z0-9_-]{30,}', rb'amzn1\.oa2-cs\.v1\.[a-zA-Z0-9]{20,}', rb'-----BEGIN (?:RSA |EC |ENCRYPTED )?PRIVATE KEY-----']
+    patterns = private_patterns + [rb'C:[/\\]Users[/\\][^/\\\s]+', rb'Atzr\|[A-Za-z0-9_-]{30,}', rb'amzn1\.oa2-cs\.v1\.[a-zA-Z0-9]{20,}', rb'-----BEGIN (?:RSA |EC |ENCRYPTED )?PRIVATE KEY-----']
     if any(re.search(pattern, raw, re.I) for pattern in patterns):
         problems.append(str(relative) + ': private identifier or secret signature')
     count += 1
